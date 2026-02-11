@@ -1,20 +1,30 @@
 import { useState } from "react";
 
-function Home () {
-    const [count, setCount] = useState(0)
+function Home() {
+  const [count, setCount] = useState(0);
 
-
-    return(
-        <>
-        <div className="home-container">
-            <h1>Home</h1>
-            <h3>Count</h3>
-            <p>{count}</p>
-            <button onClick={() => setCount(0)} className="increment">+1</button>
-            <button onClick={() => setCount(0)} className="decrement">-1</button>
-        </div>      
-        </>
-    );
+  return (
+    <>
+      <div className="home-container">
+        <h1 className="home-title">Home</h1>
+        <h3 className="count-title">Count</h3>
+        <div className="count-container">
+          <div>
+            <button onClick={() => setCount(count - 1)} className="decrement">
+              -
+            </button>
+          </div>
+          <div className="count"> {count} </div>
+          <div>
+            <button onClick={() => setCount(count + 1)} className="increment">
+              {" "}
+              +{" "}
+            </button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Home
+export default Home;

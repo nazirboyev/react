@@ -1,0 +1,73 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-size: 24px;
+}
+
+.home-title {
+    margin: 1rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.count-title {
+    margin: 1rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.count {
+    margin: 1rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+.count-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count-container button {
+    display: inline;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.increment {
+    background-color: green;
+    color: #fff;
+    padding: 5px 13px;
+}
+
+.decrement {
+    background-color: red;
+    color: #fff;
+    padding: 5px 15px;
+}

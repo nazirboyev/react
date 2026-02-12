@@ -71,3 +71,40 @@ nav ul li a {
     color: #fff;
     padding: 5px 15px;
 }
+
+.Movies-container{
+    margin: 10px;
+}
+
+.title{
+    border: 1px solid black;
+    color: #fff ;
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+.search{
+    display: flex;
+    margin: 50px 500px;
+}
+
+.input{
+    padding: 15px;
+    padding-right: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0.5px solid lightgray;
+}
+.btn{
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}

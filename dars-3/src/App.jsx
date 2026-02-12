@@ -1,10 +1,11 @@
 import "./App.css"
 import { Routes, Route, Link } from "react-router";
 import Home from "./pages/home";
-import About from "./pages/About";
+import About from "./pages/Movies";
 import Contact from "./pages/Contact";
 import Payments from "./pages/Payments";
 import Shop from "./pages/Shop";
+import Movies from "./pages/Movies";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <Link to="/Home">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/movies">Movies</Link>
           </li>
           <li>
             <Link to="/contact">contact</Link>
@@ -32,7 +33,7 @@ function App() {
 
       <Routes>
         <Route path="/Home" element={ <Home />}></Route>
-        <Route path="/about" element={ <About />}></Route>
+        <Route path="/movies" element={ <Movies />}></Route>
         <Route path="/contact" element={ <Contact/>}></Route>
         <Route path="/payments" element={ <Payments/>}></Route>
         <Route path="/shop" element={<Shop/>}></Route>
